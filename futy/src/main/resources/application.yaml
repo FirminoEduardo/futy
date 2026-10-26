@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: futy
+  datasource:
+    url: jdbc:postgresql://localhost:5432/futy
+    username: futy
+    password: futy
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  flyway:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

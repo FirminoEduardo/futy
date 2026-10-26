@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven / Spring (app module)
+futy/target/
+futy/.mvn/wrapper/maven-wrapper.jar
+futy/.idea/
+futy/**/*.iml

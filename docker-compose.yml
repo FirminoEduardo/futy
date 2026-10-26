@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: futy-db
+    environment:
+      POSTGRES_DB: futy
+      POSTGRES_USER: futy
+      POSTGRES_PASSWORD: futy
+    ports:
+      - "5432:5432"
+    volumes:
+      - futy-data:/var/lib/postgresql/data
+
+volumes:
+  futy-data:
