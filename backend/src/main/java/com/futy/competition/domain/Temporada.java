@@ -58,8 +58,11 @@ public class Temporada {
         return status;
     }
 
+    public void setStatus(StatusTemporada status) {
+        this.status = status;
+    }
+
     public Instant getCriadaEm() {
         return criadaEm;
     }
 }
-
